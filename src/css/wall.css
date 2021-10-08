@@ -1,0 +1,61 @@
+.wall-header{
+    margin-top: 50px;
+}
+
+.message-header{
+    padding: 1px 15px 1px 15px !important;
+    text-transform: uppercase; 
+    font-size: 0.9em;
+}
+
+.message-body{
+    padding: 10px 15px 0px 15px !important
+}
+
+.text-right{
+    text-align: right;
+}
+
+.new-message {
+    animation: newMex 4s; 
+    animation-iteration-count: 1;
+}
+
+@keyframes newMex {
+    0% { transform: translate(200px, 0px); opacity: 0;   }
+    100% { transform: translate(0px, 0px); opacity: 1;  }    
+}
+
+
+.left-message{
+    animation: moveToLeft 2s; 
+    animation-iteration-count: 1; 
+}
+@keyframes moveToLeft {
+    0% { transform: translate(200px, 0px)   }
+    100% { transform: translate(0px, 0px)  }    
+}
+
+.right-message{
+    animation: moveToRight 2s; 
+    animation-iteration-count: 1; 
+}
+@keyframes moveToRight {
+    0% { transform: translate(-200px, 0px)   }
+    100% { transform: translate(0px, 0px)  }    
+}
+
+.wall-intro {
+    margin-left: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    cursor: pointer;
+}
+
+#popover-positioned-right{
+    color:#555;
+    background-color: #f7f7f7;
+    height: auto;
+    width: auto;
+}

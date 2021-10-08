@@ -1,0 +1,48 @@
+.login-header{
+    text-align: center;
+    font-size: 1.2em !important;
+  }
+
+.login-button {
+    min-width: 185px;
+    min-height: 40px;
+    margin: 4px 0 0 0;   
+  }
+  
+.div-login-button {
+    display: table ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+  }
+
+.google-login{  
+    border-top: 10px;  
+  }
+
+.div-login-button:hover {
+    cursor: pointer;
+    opacity: 1.5;
+}
+
+.div-login-google{
+    border-top: solid 2px #e7e7e7;
+    padding: 10px 0px;
+}
+
+.footer-login{
+  width: 100%;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 0.9em;
+  background-color: #e7e7e7;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.button-close{
+  position: static !important;
+  margin-left: 10px !important;
+}
+  

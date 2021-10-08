@@ -1,0 +1,9 @@
+install in dev
+webpack
+webpack-uglify-js-plugin
+webpack-shell-pluginwebpack-dev-server
+webpack-bundle-analyzer
+
+
+en package.json
+build: webpack --config="webpack.publish..config.js -d"

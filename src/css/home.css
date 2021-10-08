@@ -1,0 +1,76 @@
+html > body > div {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.navbar{
+  margin-bottom: 0 !important;
+}
+
+
+.carousel-inner > .item {
+    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition: -o-transform 1.0s ease-in-out !important;
+    transition: -webkit-transform 1.0s ease-in-out !important;
+    -o-transition: transform .6s ease-in-out !important;
+    transition: transform 1.0s ease-in-out !important;
+    transition: transform 1.0s ease-in-out, -webkit-transform 1.0s ease-in-out !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.bg {
+  height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-inner{
+  height: 100%;
+}
+
+.carousel-inner div{
+  height: 100%;
+}
+
+.carousel{
+  height: 100%;
+  background-size: cover;
+  font-family: 'Paprika';
+  font-size: 1.3em;
+}
+
+.carousel-cap{
+  text-shadow: 2px 2px 3px rgb(41, 41, 41);  
+  line-height: 1.5;
+}
+.row{
+  height: 60%;
+}
+
+.max-height{
+  height: 100%;
+}
+
+.countdown {
+  border: 10px;
+  text-shadow: 3px 3px 4px rgb(41, 41, 41);
+  line-height: 1.5;
+  height: 50%;
+    }
+
+.test {
+  height: 100%;
+}
+
+.footer-general{
+  width: 100%;
+  padding: 10px 30px;
+  text-align: center;
+  font-size: 0.9em;
+  background-color: #e7e7e7;
+  bottom: 0;
+}

@@ -1,0 +1,35 @@
+.logisticsPanelHeader{
+    font-family: Paprika;
+    font-size: 0.9em;
+}
+
+.panel-title a {
+    display: block;
+    padding: 10px 15px;
+    margin: -10px -15px;
+}
+
+.image-church{
+    margin-top: 0;
+}
+
+.map-church{
+    margin: 0 0 1.5em 0;
+}
+
+.hand-click:hover{
+    cursor: pointer;
+}
+
+.hand-click{
+    width:100%;
+    margin-top: 5px;
+    margin-bottom: 5px !important;
+}
+
+.address-row{
+    font-style: italic;
+    margin-left: 30px !important;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
